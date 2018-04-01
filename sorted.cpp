@@ -20,12 +20,12 @@ int main(){
     
   int values[1000];
   int size;
-  cout << "Enter integers. (ctr+D to exit)" << endl;
+  cout << "Enter integers.  Type control-D when done" << endl;
   
   for (size = 0; cin >> values[size]; size++);
   
   if (is_array_sorted(values, size))
-    {cout << "The values you entered are sorted" << endl;}
+    {cout << "The values you entered ARE sorted" << endl;}
   else 
-    {cout << "The values you entered aren't sorted" << endl;}
+    {cout << "The values you entered ARE NOT sorted" << endl;}
 }
