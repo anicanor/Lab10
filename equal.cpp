@@ -17,13 +17,13 @@ int main(){
     str1[0] = 0;
     str2[0] = 0;
 
-    cout << "enter first string" << endl;
+    cout << "enter first string: ";
     cin >> str1;
-    cout << "enter second string" << endl;
+    cout << "enter second string: ";
     cin >> str2;
 
     if (equal_string(str1, str2))
-        {cout << str1 << " is the same as " << str2 << endl;}
+        {cout << "<" << str1 << "> is the same as <" << str2 << ">" << endl;}
     else 
-        {cout << str1 << " is not the same as " << str2 << endl;}
+        {cout << "<" << str1 << "> is not the same as <" << str2 << ">" << endl;}
 }
