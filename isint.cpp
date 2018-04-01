@@ -15,11 +15,11 @@ bool is_int(char str[]){
 int main(){
     
   char check[1000];
-  cout << "Enter a string." << endl;
+  cout << "Enter a string: ";
   cin >> check;
 
   if (is_int(check))
-    {cout << check << " is an integer." << endl;}
+    {cout << "<" << check << "> is an integer." << endl;}
   else 
-    {cout << check << " is not an integer." << endl;}
+    {cout << "<" << check << "> is NOT an integer." << endl;}
 }
