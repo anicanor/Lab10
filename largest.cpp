@@ -23,5 +23,5 @@ int main(){
     
     for (size = 0; cin >> values[size]; size++);
     
-    cout << "The largest in the array is " << largest_in_array(values, size) << endl;
+    cout << "The largest value is " << largest_in_array(values, size) << endl;
 }
